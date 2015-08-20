@@ -6,8 +6,15 @@ public class TurtleWorld
     {
         World turtleWorld = new World();
         Turtle turtle = new Turtle(turtleWorld);
-        turtle.setPenColor(Color.RED);
+        turtle.setPenColor(Color.GREEN);
+        turtle.
+        setPenWidth(25);
         turtle.penDown();
-        turtle.forward(50);
+        for i in range(4):
+            turtle.forward(50);
+            turtle.turnRight();
+        
+        
+        
     }
 }
